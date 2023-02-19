@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import { useRouter } from "next/router";
 import { format } from "date-fns";
 import InfoCard from "../components/InfoCard";
-import Maps from "../components/Map";
+//import Maps from "../components/Map";
 
 const search = ({ searchResults }) => {
   const router = useRouter();
@@ -63,9 +63,7 @@ const search = ({ searchResults }) => {
           </div>
         </section>
 
-        <section className="hidden xl:inline-flex xl:min-w-[600px]">
-          <Maps searchResults={searchResults} />
-        </section>
+        <section className="hidden xl:inline-flex xl:min-w-[600px]"></section>
       </main>
       <Footer />
     </div>
@@ -87,3 +85,4 @@ export async function getServerSideProps() {
     },
   };
 }
+// line 67           <Maps searchResults={searchResults} />

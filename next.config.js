@@ -13,6 +13,10 @@ const nextConfig = {
       "pbs.twimg.com",
     ],
   },
+  env: {
+    mapbox_key:
+      "pk.eyJ1IjoiYWJoYXNvbmlhcyIsImEiOiJjbGRoOXFxdDcwNnZpM3Fta3JrY2tpejkzIn0.uW6jUAWj8aEiGntxjzCBdg",
+  },
 };
 
 module.exports = nextConfig;
